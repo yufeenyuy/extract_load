@@ -1,6 +1,6 @@
 import logger as log
 import postgresops as ps
-
+import yelp_restaurants_extract as yelp
 import driveextract as d
 import convert_driveextract_to_df as dr
 import convert_hetzner_box_extract_to_df as hzr
@@ -43,11 +43,25 @@ def ingest_hz_sales_dt():
     log.lg.info('sales_data ingested successfully.')
     return None
 
+def ingest_yelp_business():
+    businesses_df = ps.to_str(yelp.get_business_reviews()[0])
+    log.lg.info('Ingesting yelp businesses data into Postgres...')
+    ps.ingest_data(businesses_df, 'raw_datasets', 'yelp_businesses')
+    log.lg.info('yelp businesses ingested successfully.')
+
+def ingest_yelp_business_reviews():
+    business_reviews_df = ps.to_str(yelp.get_business_reviews()[1])
+    log.lg.info('Ingesting yelp business reviews data into Postgres...')
+    ps.ingest_data(business_reviews_df, 'raw_datasets', 'yelp_business_reviews')
+    log.lg.info('yelp business reviews ingested successfully.')
+
 def data_ingest():
     ingest_drive_production_dt()
     ingest_drive_sales_dt()
     ingest_hz_production_dt()
     ingest_hz_sales_dt()
+    ingest_yelp_business()
+    ingest_yelp_business_reviews()
     return None
 
 if __name__ == '__main__':

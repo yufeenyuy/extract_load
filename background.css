@@ -1,0 +1,11 @@
+p {
+  padding: 10px;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align:justify;
+  justify-content: space-evenly;
+  text-justify:inter-word;
+  text-align-last:inter-word;
+}

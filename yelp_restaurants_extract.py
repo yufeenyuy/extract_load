@@ -2,6 +2,7 @@ import requests
 import pandas as pd
 import os 
 import logger as log
+import postgresops as ps
 
 from dotenv import load_dotenv
 
@@ -41,16 +42,20 @@ def get_businesses(dfs= None, df_lis = []) -> tuple:
     if df_lis:
         dfs = pd.concat(df_lis, ignore_index=True)
         business_ids = set(dfs['id'])
-    return dfs, business_ids
+    return dfs, list(set(business_ids))
 
-def get_business_reviews(dfs = None):
+
+
+def get_business_reviews(reviews_df = None):
     review_dfs =[]
+    businesses_df = get_businesses()[0]
     business_ids = get_businesses()[1]
     for id in business_ids:
         try:
             response = requests.get(url=f"https://api.yelp.com/v3/businesses/{id}/reviews", headers=header)
             if response.status_code == 200:
-                df = pd.DataFrame(response.json()['businesses'])
+                df = pd.DataFrame(response.json()['reviews'])
+                df['business_id'] = id
                 if not df.empty:
                     review_dfs.append(df)
                 else:
@@ -60,6 +65,7 @@ def get_business_reviews(dfs = None):
         except Exception as e:
             log.lg.info(f"This exception:{e} is from the get_businesses yelp endpoint.")
     if review_dfs:
-        dfs = pd.concat(review_dfs, ignore_index=True)
-    return dfs
+        reviews_df = pd.concat(review_dfs, ignore_index=True)
+    return businesses_df, reviews_df
+
 
