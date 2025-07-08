@@ -102,4 +102,5 @@ are equally defined here.
 
 Another important file worth noting is the <b>requirement.txt</b> which contains all the python libraries used during the implementation of the Extract-Load process.
 To install these libraries in the python development environment(.venv), first of all activate the development environment (on windows use cmd) then type the
-following command: pip install -r requirement.txt.
+following command: 
+</em>pip install -r requirement.txt</em>

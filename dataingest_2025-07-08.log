@@ -1,0 +1,1014 @@
+INFO: 08.07.2025 07:05:46 Connection to postgres established..
+INFO: 08.07.2025 07:05:51 Redirect URI:, http://localhost:8080/.
+DEBUG: 08.07.2025 07:05:51 Generated new state xeQ26cTrjVzRyPC138sBQC4gMjBtAi..
+DEBUG: 08.07.2025 07:05:51 Starting new HTTPS connection (1): oauth2.googleapis.com:443.
+DEBUG: 08.07.2025 07:05:51 https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:05:51 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 08.07.2025 07:05:51 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271LJi-BzMhNrrZhdqZcS0VH4wIhqwxrSrs%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 08.07.2025 07:05:51 Start Data Ingestion process.
+INFO: 08.07.2025 07:05:51 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 08.07.2025 07:05:52 URL being requested: GET https://www.googleapis.com/drive/v3/files/1OlChde6WPPV_9vKySWWnuAJ74VUsRnA9?alt=media.
+INFO: 08.07.2025 07:05:53 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 08.07.2025 07:05:53 URL being requested: GET https://www.googleapis.com/drive/v3/files/1yIjq2uIbLBouUOSPKiTai9yTCzSLr6xy?alt=media.
+INFO: 08.07.2025 07:05:55 Ingesting production in Postgres....
+INFO: 08.07.2025 07:05:55 Target Schema:raw_datasets but table:production does not exist so table:production will be ingested into Schema:raw_datasets..
+INFO: 08.07.2025 07:05:56 production has been ingested in schema:raw_datasets.
+INFO: 08.07.2025 07:05:56 production ingested successfully..
+INFO: 08.07.2025 07:05:56 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 08.07.2025 07:05:56 URL being requested: GET https://www.googleapis.com/drive/v3/files/1OlChde6WPPV_9vKySWWnuAJ74VUsRnA9?alt=media.
+INFO: 08.07.2025 07:05:56 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 08.07.2025 07:05:56 URL being requested: GET https://www.googleapis.com/drive/v3/files/1yIjq2uIbLBouUOSPKiTai9yTCzSLr6xy?alt=media.
+INFO: 08.07.2025 07:05:58 Ingesting sales into Postgres....
+INFO: 08.07.2025 07:05:58 Target Schema:raw_datasets but table:sales does not exist so table:sales will be ingested into Schema:raw_datasets..
+INFO: 08.07.2025 07:05:58 sales has been ingested in schema:raw_datasets.
+INFO: 08.07.2025 07:05:58 sales ingested successfully..
+DEBUG: 08.07.2025 07:05:58 starting thread (client mode): 0x7f6c7e10.
+DEBUG: 08.07.2025 07:05:58 Local version/idstring: SSH-2.0-paramiko_3.5.1.
+DEBUG: 08.07.2025 07:05:58 Remote version/idstring: SSH-2.0-mod_sftp.
+INFO: 08.07.2025 07:05:58 Connected (version 2.0, client mod_sftp).
+DEBUG: 08.07.2025 07:05:58 === Key exchange possibilities ===.
+DEBUG: 08.07.2025 07:05:58 kex algos: ecdh-sha2-nistp521, ecdh-sha2-nistp384, ecdh-sha2-nistp256, diffie-hellman-group18-sha512, diffie-hellman-group16-sha512, diffie-hellman-group14-sha256, diffie-hellman-group-exchange-sha256, diffie-hellman-group-exchange-sha1, diffie-hellman-group14-sha1, ext-info-s, kex-strict-s-v00@openssh.com.
+DEBUG: 08.07.2025 07:05:58 server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ssh-dss.
+DEBUG: 08.07.2025 07:05:58 client encrypt: aes256-ctr, aes192-ctr, aes128-ctr.
+DEBUG: 08.07.2025 07:05:58 server encrypt: aes256-ctr, aes192-ctr, aes128-ctr.
+DEBUG: 08.07.2025 07:05:58 client mac: hmac-sha2-256, hmac-sha2-512.
+DEBUG: 08.07.2025 07:05:58 server mac: hmac-sha2-256, hmac-sha2-512.
+DEBUG: 08.07.2025 07:05:58 client compress: none.
+DEBUG: 08.07.2025 07:05:58 server compress: none.
+DEBUG: 08.07.2025 07:05:58 client lang: <none>.
+DEBUG: 08.07.2025 07:05:58 server lang: <none>.
+DEBUG: 08.07.2025 07:05:58 kex follows: False.
+DEBUG: 08.07.2025 07:05:58 === Key exchange agreements ===.
+DEBUG: 08.07.2025 07:05:58 Strict kex mode: True.
+DEBUG: 08.07.2025 07:05:58 Kex: ecdh-sha2-nistp256.
+DEBUG: 08.07.2025 07:05:58 HostKey: rsa-sha2-512.
+DEBUG: 08.07.2025 07:05:58 Cipher: aes128-ctr.
+DEBUG: 08.07.2025 07:05:58 MAC: hmac-sha2-256.
+DEBUG: 08.07.2025 07:05:58 Compression: none.
+DEBUG: 08.07.2025 07:05:58 === End of kex handshake ===.
+DEBUG: 08.07.2025 07:05:58 Resetting outbound seqno after NEWKEYS due to strict mode.
+DEBUG: 08.07.2025 07:05:58 kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>.
+DEBUG: 08.07.2025 07:05:58 Switch to new keys ....
+DEBUG: 08.07.2025 07:05:58 Resetting inbound seqno after NEWKEYS due to strict mode.
+DEBUG: 08.07.2025 07:05:58 Adding ssh-rsa host key for u400640.your-storagebox.de: b'3d7b6f995f6853217315f92e6b3a9fe3'.
+DEBUG: 08.07.2025 07:05:58 Got EXT_INFO: {'server-sig-algs': b'ssh-ed448,ssh-ed25519,rsa-sha2-256,rsa-sha2-512,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,ssh-rsa,ssh-dss'}.
+DEBUG: 08.07.2025 07:05:58 userauth is OK.
+INFO: 08.07.2025 07:05:58 Authentication (password) successful!.
+DEBUG: 08.07.2025 07:05:58 [chan 0] Max packet in: 32768 bytes.
+DEBUG: 08.07.2025 07:05:58 Received global request "hostkeys-00@openssh.com".
+DEBUG: 08.07.2025 07:05:58 Rejecting "hostkeys-00@openssh.com" global request from server..
+DEBUG: 08.07.2025 07:05:58 [chan 0] Max packet out: 32768 bytes.
+DEBUG: 08.07.2025 07:05:58 Secsh channel 0 opened..
+DEBUG: 08.07.2025 07:05:58 [chan 0] Sesch channel 0 request ok.
+INFO: 08.07.2025 07:05:58 [chan 0] Opened sftp connection (server version 3).
+DEBUG: 08.07.2025 07:05:58 [chan 0] listdir(b'/incomingdata/clients/confidencebakery/retrieve/').
+DEBUG: 08.07.2025 07:05:58 [chan 0] open(b'/incomingdata/clients/confidencebakery/retrieve/production_and_sales_data.xlsx', 'rb').
+DEBUG: 08.07.2025 07:05:58 [chan 0] open(b'/incomingdata/clients/confidencebakery/retrieve/production_and_sales_data.xlsx', 'rb') -> 36303630626165636364373365373238.
+DEBUG: 08.07.2025 07:05:59 [chan 0] close(36303630626165636364373365373238).
+INFO: 08.07.2025 07:05:59 Ingesting production_data into Postgres....
+INFO: 08.07.2025 07:05:59 Target Schema:raw_datasets but table:production_data does not exist so table:production_data will be ingested into Schema:raw_datasets..
+INFO: 08.07.2025 07:06:00 production_data has been ingested in schema:raw_datasets.
+INFO: 08.07.2025 07:06:00 production_data ingested successfully..
+DEBUG: 08.07.2025 07:06:00 starting thread (client mode): 0xd669310.
+DEBUG: 08.07.2025 07:06:00 Local version/idstring: SSH-2.0-paramiko_3.5.1.
+DEBUG: 08.07.2025 07:06:00 Remote version/idstring: SSH-2.0-mod_sftp.
+INFO: 08.07.2025 07:06:00 Connected (version 2.0, client mod_sftp).
+DEBUG: 08.07.2025 07:06:00 === Key exchange possibilities ===.
+DEBUG: 08.07.2025 07:06:00 kex algos: ecdh-sha2-nistp521, ecdh-sha2-nistp384, ecdh-sha2-nistp256, diffie-hellman-group18-sha512, diffie-hellman-group16-sha512, diffie-hellman-group14-sha256, diffie-hellman-group-exchange-sha256, diffie-hellman-group-exchange-sha1, diffie-hellman-group14-sha1, ext-info-s, kex-strict-s-v00@openssh.com.
+DEBUG: 08.07.2025 07:06:00 server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ssh-dss.
+DEBUG: 08.07.2025 07:06:00 client encrypt: aes256-ctr, aes192-ctr, aes128-ctr.
+DEBUG: 08.07.2025 07:06:00 server encrypt: aes256-ctr, aes192-ctr, aes128-ctr.
+DEBUG: 08.07.2025 07:06:00 client mac: hmac-sha2-256, hmac-sha2-512.
+DEBUG: 08.07.2025 07:06:00 server mac: hmac-sha2-256, hmac-sha2-512.
+DEBUG: 08.07.2025 07:06:00 client compress: none.
+DEBUG: 08.07.2025 07:06:00 server compress: none.
+DEBUG: 08.07.2025 07:06:00 client lang: <none>.
+DEBUG: 08.07.2025 07:06:00 server lang: <none>.
+DEBUG: 08.07.2025 07:06:00 kex follows: False.
+DEBUG: 08.07.2025 07:06:00 === Key exchange agreements ===.
+DEBUG: 08.07.2025 07:06:00 Strict kex mode: True.
+DEBUG: 08.07.2025 07:06:00 Kex: ecdh-sha2-nistp256.
+DEBUG: 08.07.2025 07:06:00 HostKey: rsa-sha2-512.
+DEBUG: 08.07.2025 07:06:00 Cipher: aes128-ctr.
+DEBUG: 08.07.2025 07:06:00 MAC: hmac-sha2-256.
+DEBUG: 08.07.2025 07:06:00 Compression: none.
+DEBUG: 08.07.2025 07:06:00 === End of kex handshake ===.
+DEBUG: 08.07.2025 07:06:00 Resetting outbound seqno after NEWKEYS due to strict mode.
+DEBUG: 08.07.2025 07:06:00 kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>.
+DEBUG: 08.07.2025 07:06:00 Switch to new keys ....
+DEBUG: 08.07.2025 07:06:00 Resetting inbound seqno after NEWKEYS due to strict mode.
+DEBUG: 08.07.2025 07:06:00 Adding ssh-rsa host key for u400640.your-storagebox.de: b'3d7b6f995f6853217315f92e6b3a9fe3'.
+DEBUG: 08.07.2025 07:06:00 Got EXT_INFO: {'server-sig-algs': b'ssh-ed448,ssh-ed25519,rsa-sha2-256,rsa-sha2-512,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,ssh-rsa,ssh-dss'}.
+DEBUG: 08.07.2025 07:06:00 userauth is OK.
+INFO: 08.07.2025 07:06:00 Authentication (password) successful!.
+DEBUG: 08.07.2025 07:06:00 [chan 0] Max packet in: 32768 bytes.
+DEBUG: 08.07.2025 07:06:00 Received global request "hostkeys-00@openssh.com".
+DEBUG: 08.07.2025 07:06:00 Rejecting "hostkeys-00@openssh.com" global request from server..
+DEBUG: 08.07.2025 07:06:00 [chan 0] Max packet out: 32768 bytes.
+DEBUG: 08.07.2025 07:06:00 Secsh channel 0 opened..
+DEBUG: 08.07.2025 07:06:00 [chan 0] Sesch channel 0 request ok.
+INFO: 08.07.2025 07:06:00 [chan 0] Opened sftp connection (server version 3).
+DEBUG: 08.07.2025 07:06:00 [chan 0] listdir(b'/incomingdata/clients/confidencebakery/retrieve/').
+DEBUG: 08.07.2025 07:06:00 [chan 0] open(b'/incomingdata/clients/confidencebakery/retrieve/production_and_sales_data.xlsx', 'rb').
+DEBUG: 08.07.2025 07:06:00 [chan 0] open(b'/incomingdata/clients/confidencebakery/retrieve/production_and_sales_data.xlsx', 'rb') -> 62396562306638663637636266646137.
+DEBUG: 08.07.2025 07:06:01 [chan 0] close(62396562306638663637636266646137).
+INFO: 08.07.2025 07:06:01 Ingesting sales_data into Postgres....
+INFO: 08.07.2025 07:06:01 Target Schema:raw_datasets but table:sales_data does not exist so table:sales_data will be ingested into Schema:raw_datasets..
+INFO: 08.07.2025 07:06:01 sales_data has been ingested in schema:raw_datasets.
+INFO: 08.07.2025 07:06:01 sales_data ingested successfully..
+DEBUG: 08.07.2025 07:06:01 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:02 https://api.yelp.com:443 "GET /v3/businesses/search?term=restaurants&price=1%2C2%2C3&location=Bielefeld HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:02 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:02 https://api.yelp.com:443 "GET /v3/businesses/search?term=restaurants&price=1%2C2%2C3&location=Hamm HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:02 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:03 https://api.yelp.com:443 "GET /v3/businesses/search?term=restaurants&price=1%2C2%2C3&location=Paderborn HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:03 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:03 https://api.yelp.com:443 "GET /v3/businesses/search?term=restaurants&price=1%2C2%2C3&location=Essen HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:03 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:04 https://api.yelp.com:443 "GET /v3/businesses/search?term=restaurants&price=1%2C2%2C3&location=Dortmund HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:04 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:05 https://api.yelp.com:443 "GET /v3/businesses/search?term=restaurants&price=1%2C2%2C3&location=Cologne HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:05 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:05 https://api.yelp.com:443 "GET /v3/businesses/search?term=restaurants&price=1%2C2%2C3&location=Dusseldorf HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:05 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:06 https://api.yelp.com:443 "GET /v3/businesses/search?term=restaurants&price=1%2C2%2C3&location=Bochum HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:06 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:06 https://api.yelp.com:443 "GET /v3/businesses/search?term=restaurants&price=1%2C2%2C3&location=Hanover HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:06 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:06 https://api.yelp.com:443 "GET /v3/businesses/search?term=restaurants&price=1%2C2%2C3&location=Bielefeld HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:06 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:07 https://api.yelp.com:443 "GET /v3/businesses/search?term=restaurants&price=1%2C2%2C3&location=Hamm HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:07 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:07 https://api.yelp.com:443 "GET /v3/businesses/search?term=restaurants&price=1%2C2%2C3&location=Paderborn HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:07 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:08 https://api.yelp.com:443 "GET /v3/businesses/search?term=restaurants&price=1%2C2%2C3&location=Essen HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:08 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:08 https://api.yelp.com:443 "GET /v3/businesses/search?term=restaurants&price=1%2C2%2C3&location=Dortmund HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:08 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:08 https://api.yelp.com:443 "GET /v3/businesses/search?term=restaurants&price=1%2C2%2C3&location=Cologne HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:08 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:09 https://api.yelp.com:443 "GET /v3/businesses/search?term=restaurants&price=1%2C2%2C3&location=Dusseldorf HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:09 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:10 https://api.yelp.com:443 "GET /v3/businesses/search?term=restaurants&price=1%2C2%2C3&location=Bochum HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:10 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:11 https://api.yelp.com:443 "GET /v3/businesses/search?term=restaurants&price=1%2C2%2C3&location=Hanover HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:11 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:11 https://api.yelp.com:443 "GET /v3/businesses/FBZAp-gwBzRVcX_qy6bYVQ/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:11 No reviews for FBZAp-gwBzRVcX_qy6bYVQ in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:11 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:11 https://api.yelp.com:443 "GET /v3/businesses/-JjN97rOBBMIsIMhTNXDhg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:11 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:12 https://api.yelp.com:443 "GET /v3/businesses/T8ou1dVjUCJEYQnDyyjxcw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:12 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:12 https://api.yelp.com:443 "GET /v3/businesses/R4kkeXWZCl5qWe6HUCbjhQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:12 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:12 https://api.yelp.com:443 "GET /v3/businesses/5ec7LxlhVyGqUplGjyqytw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:12 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:13 https://api.yelp.com:443 "GET /v3/businesses/fBTteWVkebOu2aGuvubB_Q/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:13 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:13 https://api.yelp.com:443 "GET /v3/businesses/nZnTm05xSPT4Bo-59mOWLw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:13 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:13 https://api.yelp.com:443 "GET /v3/businesses/bTUzQpA7wrEhZ_2qcKTQ0A/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:13 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:14 https://api.yelp.com:443 "GET /v3/businesses/ye11QN7w7e6PTjrBEALc1g/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:14 No reviews for ye11QN7w7e6PTjrBEALc1g in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:14 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:14 https://api.yelp.com:443 "GET /v3/businesses/Kpry4o-SnEcmZGNhydVtNg/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:14 No reviews for Kpry4o-SnEcmZGNhydVtNg in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:14 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:14 https://api.yelp.com:443 "GET /v3/businesses/2OUO8pLF6cGPQgX3ZgH7qQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:14 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:15 https://api.yelp.com:443 "GET /v3/businesses/Z5E2BnmbOAhZPI36xt4nVA/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:15 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:15 https://api.yelp.com:443 "GET /v3/businesses/uUnFse-TYOH13Tdgv85tog/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:15 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:15 https://api.yelp.com:443 "GET /v3/businesses/-WQZamcfmW_ZK4whz4YZow/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:15 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:15 https://api.yelp.com:443 "GET /v3/businesses/pLB8JdfC_LGRsB6ZCKlvAg/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:15 No reviews for pLB8JdfC_LGRsB6ZCKlvAg in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:15 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:16 https://api.yelp.com:443 "GET /v3/businesses/f5xSxMpmE1UfYtMmR5NoSw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:16 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:16 https://api.yelp.com:443 "GET /v3/businesses/9CgmvnEkPKn1LH5ghQhbpA/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:16 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:16 https://api.yelp.com:443 "GET /v3/businesses/hi1cf5e--uACElON15yeLg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:16 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:17 https://api.yelp.com:443 "GET /v3/businesses/AimcDZzhcK1RUVS_TWyctw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:17 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:17 https://api.yelp.com:443 "GET /v3/businesses/e0K-ASEl6s8rcKCkNDM1Lg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:17 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:17 https://api.yelp.com:443 "GET /v3/businesses/4-8qn7CFGUn-ibEDanda2Q/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:17 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:18 https://api.yelp.com:443 "GET /v3/businesses/npnMyTU2DJJNTTQNati4Bg/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:18 No reviews for npnMyTU2DJJNTTQNati4Bg in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:18 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:18 https://api.yelp.com:443 "GET /v3/businesses/1uXNDnnQTeCAKEZQ7ST2gw/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:18 No reviews for 1uXNDnnQTeCAKEZQ7ST2gw in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:18 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:18 https://api.yelp.com:443 "GET /v3/businesses/otiY6ey2xTN6p56f4hRDyg/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:18 No reviews for otiY6ey2xTN6p56f4hRDyg in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:18 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:18 https://api.yelp.com:443 "GET /v3/businesses/MW2euAqBLdI32Nm4_bPc7w/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:18 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:19 https://api.yelp.com:443 "GET /v3/businesses/ZanDj3x8SP6RmyKHveH_lg/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:19 No reviews for ZanDj3x8SP6RmyKHveH_lg in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:19 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:19 https://api.yelp.com:443 "GET /v3/businesses/1vDhYlefyo6E_0sRjGEnJg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:19 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:19 https://api.yelp.com:443 "GET /v3/businesses/6R8R_EoSV4pBbF06xEsUng/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:19 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:20 https://api.yelp.com:443 "GET /v3/businesses/nHGny7ceHmpOGeWBaCVjsg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:20 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:20 https://api.yelp.com:443 "GET /v3/businesses/0ng_XDXCUy16WpHk1weWJg/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:20 No reviews for 0ng_XDXCUy16WpHk1weWJg in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:20 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:20 https://api.yelp.com:443 "GET /v3/businesses/uzXYLG4V0WZlmMUuQqv1iQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:20 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:20 https://api.yelp.com:443 "GET /v3/businesses/vcQ2sl4vdJaa8F8m0vblpA/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:20 No reviews for vcQ2sl4vdJaa8F8m0vblpA in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:20 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:21 https://api.yelp.com:443 "GET /v3/businesses/TVYyeplhO91QPUPP4OsKhg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:21 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:21 https://api.yelp.com:443 "GET /v3/businesses/e6XiItLpdt8oykTI8ALZoQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:21 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:21 https://api.yelp.com:443 "GET /v3/businesses/QtBgUi_hfAOV0znTrD1s0A/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:21 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:22 https://api.yelp.com:443 "GET /v3/businesses/ROej6waL4wlDgx1K8emsnw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:22 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:22 https://api.yelp.com:443 "GET /v3/businesses/aquFJ_sk8wMdU-e8esULQQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:22 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:22 https://api.yelp.com:443 "GET /v3/businesses/h9Ebgi3U1TjSXbKx_ak8RA/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:22 No reviews for h9Ebgi3U1TjSXbKx_ak8RA in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:22 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:23 https://api.yelp.com:443 "GET /v3/businesses/cZwT83WrQY0FPYSypoVRBA/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:23 No reviews for cZwT83WrQY0FPYSypoVRBA in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:23 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:23 https://api.yelp.com:443 "GET /v3/businesses/SjxTc3TFab8Tnk1Cb8ID1w/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:23 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:23 https://api.yelp.com:443 "GET /v3/businesses/JehYCaXpf2DGybcFF2POew/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:23 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:23 https://api.yelp.com:443 "GET /v3/businesses/sGgKWrt36O4qSW2Jj_jPVA/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:23 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:24 https://api.yelp.com:443 "GET /v3/businesses/8ON0Am8Fbj90_F3fjGNLBA/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:24 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:24 https://api.yelp.com:443 "GET /v3/businesses/E1WLWaitpLxyY1IuMOZDtg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:24 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:24 https://api.yelp.com:443 "GET /v3/businesses/8z4a_uzhkJKgCKpklS1Wkg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:24 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:25 https://api.yelp.com:443 "GET /v3/businesses/CTzvAGLYmf9RfatBuHu90A/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:25 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:25 https://api.yelp.com:443 "GET /v3/businesses/MmUSbS5iAzkgvk2X5ri2pQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:25 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:25 https://api.yelp.com:443 "GET /v3/businesses/ztFGuBDuXxlr0ShU40_2jQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:25 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:26 https://api.yelp.com:443 "GET /v3/businesses/oqIzGPNMx-qJuhTyHIraHg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:26 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:26 https://api.yelp.com:443 "GET /v3/businesses/Ht3fkIKpKd9fMBHzpbZF4g/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:26 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:26 https://api.yelp.com:443 "GET /v3/businesses/GsVH-mo-gcyytmlMsC9AzA/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:26 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:27 https://api.yelp.com:443 "GET /v3/businesses/IfXV56AKR9XczAN0E7Q65A/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:27 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:27 https://api.yelp.com:443 "GET /v3/businesses/6SzJxbph2ww5izWNf5931Q/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:27 No reviews for 6SzJxbph2ww5izWNf5931Q in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:27 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:27 https://api.yelp.com:443 "GET /v3/businesses/za4bAv4ZNea4CTTMnCQ4zg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:27 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:28 https://api.yelp.com:443 "GET /v3/businesses/u_88iRCF3kgdChvJ5P_JdQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:28 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:28 https://api.yelp.com:443 "GET /v3/businesses/sISdfUmJhYkR_KndhAsnRg/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:28 No reviews for sISdfUmJhYkR_KndhAsnRg in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:28 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:28 https://api.yelp.com:443 "GET /v3/businesses/zfPYIAKEpj86vfcaCv8fAQ/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:28 No reviews for zfPYIAKEpj86vfcaCv8fAQ in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:28 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:28 https://api.yelp.com:443 "GET /v3/businesses/DYD_RpB0khXAExY4CtITlg/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:28 No reviews for DYD_RpB0khXAExY4CtITlg in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:28 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:29 https://api.yelp.com:443 "GET /v3/businesses/xJtyoVZgmr0YwizCLn7KxA/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:29 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:29 https://api.yelp.com:443 "GET /v3/businesses/VAVo6xPCd6vnwXCo4w08fg/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:29 No reviews for VAVo6xPCd6vnwXCo4w08fg in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:29 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:30 https://api.yelp.com:443 "GET /v3/businesses/cPl9jDWtT4pf0uSyO-netA/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:30 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:30 https://api.yelp.com:443 "GET /v3/businesses/MDAqcgvUf0wacUBwc9kTIg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:30 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:30 https://api.yelp.com:443 "GET /v3/businesses/qhPL7p0O89Pbe_Q-oo6h7w/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:30 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:31 https://api.yelp.com:443 "GET /v3/businesses/Wmhldr5d7-jexHc2rCkVLQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:31 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:31 https://api.yelp.com:443 "GET /v3/businesses/dhjUtrjKs_tCmKoO-11bYw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:31 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:31 https://api.yelp.com:443 "GET /v3/businesses/S_Rq8srYW5V0g_lx80F7wg/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:31 No reviews for S_Rq8srYW5V0g_lx80F7wg in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:31 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:32 https://api.yelp.com:443 "GET /v3/businesses/uBzUNj-sBtIPDgEqph_PSw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:32 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:32 https://api.yelp.com:443 "GET /v3/businesses/afeHFi9nRuDxBb1B6P0ECg/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:32 No reviews for afeHFi9nRuDxBb1B6P0ECg in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:32 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:32 https://api.yelp.com:443 "GET /v3/businesses/w2fHBPOCrXESL5hk1nivDw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:32 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:32 https://api.yelp.com:443 "GET /v3/businesses/6WFmgzOyUKA9fQ3qMuG4gw/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:32 No reviews for 6WFmgzOyUKA9fQ3qMuG4gw in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:32 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:33 https://api.yelp.com:443 "GET /v3/businesses/SaeIgexPoc5ftJ5xh4fEsg/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:33 No reviews for SaeIgexPoc5ftJ5xh4fEsg in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:33 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:33 https://api.yelp.com:443 "GET /v3/businesses/7_XEJd3qTYLYiCQxxgElcw/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:33 No reviews for 7_XEJd3qTYLYiCQxxgElcw in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:33 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:33 https://api.yelp.com:443 "GET /v3/businesses/ITyvbUmC4S0d_Hb-2vlaQA/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:33 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:34 https://api.yelp.com:443 "GET /v3/businesses/_gz5R2QKY-Zm3XdNui8bYA/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:34 No reviews for _gz5R2QKY-Zm3XdNui8bYA in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:34 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:34 https://api.yelp.com:443 "GET /v3/businesses/xfRSbjb-iLHFWdT4vSqWNw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:34 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:34 https://api.yelp.com:443 "GET /v3/businesses/LK6laGbpQDGC7uWCi57DCQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:34 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:34 https://api.yelp.com:443 "GET /v3/businesses/dj6s5t_ickGirCdLbJpEuQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:34 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:35 https://api.yelp.com:443 "GET /v3/businesses/1wM2CJu4YyGv4hTWZ0EvxQ/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:35 No reviews for 1wM2CJu4YyGv4hTWZ0EvxQ in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:35 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:35 https://api.yelp.com:443 "GET /v3/businesses/6ZtOvaF61jy_o8KKJBSe6w/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:35 No reviews for 6ZtOvaF61jy_o8KKJBSe6w in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:35 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:35 https://api.yelp.com:443 "GET /v3/businesses/N1zDFDYRvBAP-eK1PI3t5Q/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:35 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:36 https://api.yelp.com:443 "GET /v3/businesses/f7G_P03xol9nGI-9L2ZIgw/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:36 No reviews for f7G_P03xol9nGI-9L2ZIgw in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:36 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:36 https://api.yelp.com:443 "GET /v3/businesses/QjcIJK8ZV-sBxBZBA2CaCg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:36 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:37 https://api.yelp.com:443 "GET /v3/businesses/drDz_7QDuj0QT-as4ztM_Q/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:37 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:37 https://api.yelp.com:443 "GET /v3/businesses/kT-MHvdHIbK-aMvI6FK35g/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:37 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:37 https://api.yelp.com:443 "GET /v3/businesses/hOc3PVokcSoAq0j3yPW87Q/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:37 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:38 https://api.yelp.com:443 "GET /v3/businesses/uEyGci8ZEMjBEi7hP7KQJQ/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:38 No reviews for uEyGci8ZEMjBEi7hP7KQJQ in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:38 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:38 https://api.yelp.com:443 "GET /v3/businesses/24x1CvLUPXmneIHJxITR9g/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:38 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:38 https://api.yelp.com:443 "GET /v3/businesses/7eGm7ITuToc3tpbfg3qKVQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:38 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:39 https://api.yelp.com:443 "GET /v3/businesses/MdOX8eh0oL69XpHxfHS3fQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:39 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:39 https://api.yelp.com:443 "GET /v3/businesses/KeYJA_BKdrNCh3WDQsTaqg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:39 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:39 https://api.yelp.com:443 "GET /v3/businesses/vXdgnyPFbMngB-K17sPklQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:39 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:40 https://api.yelp.com:443 "GET /v3/businesses/Z-jyksCFiebKSsWQqHgbwg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:40 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:40 https://api.yelp.com:443 "GET /v3/businesses/IKfM8WVRH6pHJ885wH4teA/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:40 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:40 https://api.yelp.com:443 "GET /v3/businesses/HPijIPtD0xI_pkgUvuriXQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:40 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:41 https://api.yelp.com:443 "GET /v3/businesses/AoDCEKUtEENC_0kC_kBMXw/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:41 No reviews for AoDCEKUtEENC_0kC_kBMXw in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:41 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:41 https://api.yelp.com:443 "GET /v3/businesses/x6I4am8_Z3h_rMU1hudoYQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:41 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:41 https://api.yelp.com:443 "GET /v3/businesses/J6SlqofrBMQ28hEFRCjSiA/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:41 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:41 https://api.yelp.com:443 "GET /v3/businesses/ajm7NunAE-T6E8PNsKarYg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:41 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:42 https://api.yelp.com:443 "GET /v3/businesses/7RQMbVhtptUEep5jqU67WQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:42 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:42 https://api.yelp.com:443 "GET /v3/businesses/lHkyioWSI72pD3ohP9HH2Q/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:42 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:42 https://api.yelp.com:443 "GET /v3/businesses/dqYEKkyDZrm6-MkiNEjhhg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:42 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:43 https://api.yelp.com:443 "GET /v3/businesses/XVnRt9OR2znTjX-5Qo6hcg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:43 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:43 https://api.yelp.com:443 "GET /v3/businesses/NMkkWcifZmVCtc3m5M5dxg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:43 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:44 https://api.yelp.com:443 "GET /v3/businesses/1wvO7berkWgM81fnuDPMVQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:44 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:44 https://api.yelp.com:443 "GET /v3/businesses/6ayrU29LOns1IHAs0zEztQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:44 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:44 https://api.yelp.com:443 "GET /v3/businesses/Pqf5WQt17Z1s4EHdWFvBqw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:44 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:45 https://api.yelp.com:443 "GET /v3/businesses/XaHaanOowGBaohtEzlB4Cg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:45 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:45 https://api.yelp.com:443 "GET /v3/businesses/hb_sd2FM4-lRMmXJgjRiVg/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:45 No reviews for hb_sd2FM4-lRMmXJgjRiVg in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:45 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:45 https://api.yelp.com:443 "GET /v3/businesses/g10W5MHXbaHwObF3QAArkA/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:45 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:46 https://api.yelp.com:443 "GET /v3/businesses/XYMdSkN3HJbZs3mnjB6qcA/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:46 No reviews for XYMdSkN3HJbZs3mnjB6qcA in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:46 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:46 https://api.yelp.com:443 "GET /v3/businesses/iB0ME2MAo0sMFUZLHNsjYw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:46 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:46 https://api.yelp.com:443 "GET /v3/businesses/PU71WTNSwB4mOiAXYfnOXg/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:46 No reviews for PU71WTNSwB4mOiAXYfnOXg in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:46 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:47 https://api.yelp.com:443 "GET /v3/businesses/JyFSvCYfWxnYIqbVzDS6uw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:47 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:47 https://api.yelp.com:443 "GET /v3/businesses/d7sTIBfEgrS8b7a4HzRNxQ/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:47 No reviews for d7sTIBfEgrS8b7a4HzRNxQ in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:47 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:47 https://api.yelp.com:443 "GET /v3/businesses/QR1QAqB_W9HcSUxF_qCz9g/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:48 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:48 https://api.yelp.com:443 "GET /v3/businesses/7QNvqOZJoE5p1-m1jQf9fw/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:48 No reviews for 7QNvqOZJoE5p1-m1jQf9fw in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:48 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:48 https://api.yelp.com:443 "GET /v3/businesses/-DDn-IIfRkHkocrhqFXvEg/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:48 No reviews for -DDn-IIfRkHkocrhqFXvEg in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:48 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:48 https://api.yelp.com:443 "GET /v3/businesses/M1HMp1ArlQa17iEVGy7MgA/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:48 No reviews for M1HMp1ArlQa17iEVGy7MgA in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:48 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:49 https://api.yelp.com:443 "GET /v3/businesses/L3xD2V-oJnrmyR8jZxXOoQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:49 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:49 https://api.yelp.com:443 "GET /v3/businesses/74PuSg83MlH37VWUCkMk2g/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:49 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:49 https://api.yelp.com:443 "GET /v3/businesses/hWisZsajj5mEPxVes7O3Lw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:49 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:49 https://api.yelp.com:443 "GET /v3/businesses/AYk2WoDdkS2BmBRUrYgfww/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:49 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:50 https://api.yelp.com:443 "GET /v3/businesses/lwMlhY1CCbsKsatbv_rxfw/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:50 No reviews for lwMlhY1CCbsKsatbv_rxfw in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:50 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:50 https://api.yelp.com:443 "GET /v3/businesses/D8bHjXlskxE4COlszJeStw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:50 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:50 https://api.yelp.com:443 "GET /v3/businesses/lO2-TVAfVJbvJ7V61fX8Tw/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:50 No reviews for lO2-TVAfVJbvJ7V61fX8Tw in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:50 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:51 https://api.yelp.com:443 "GET /v3/businesses/eh_JTH-Yzmg4j5XrXO3SLw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:51 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:51 https://api.yelp.com:443 "GET /v3/businesses/OXPa3fljFNAZxK97oIXT9w/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:51 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:51 https://api.yelp.com:443 "GET /v3/businesses/Il7EJp0N4kJHF_0i0trpQw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:51 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:52 https://api.yelp.com:443 "GET /v3/businesses/ChbCLBnEFd49tPAZ9LZVgw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:52 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:52 https://api.yelp.com:443 "GET /v3/businesses/qDElAd78CzjhduvbwV9P0g/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:52 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:52 https://api.yelp.com:443 "GET /v3/businesses/VNZBQyongHerSxQI1Dhhkg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:52 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:52 https://api.yelp.com:443 "GET /v3/businesses/M3qvZzRhQvvp6euyyuhopQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:52 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:53 https://api.yelp.com:443 "GET /v3/businesses/CiYoYGnzsrqb_bLt5cc4dQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:53 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:53 https://api.yelp.com:443 "GET /v3/businesses/DrGd58AdjWhpM1wchvCcrQ/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:53 No reviews for DrGd58AdjWhpM1wchvCcrQ in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:53 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:53 https://api.yelp.com:443 "GET /v3/businesses/HYawE1lVNXtI2xHcMy-thw/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:53 No reviews for HYawE1lVNXtI2xHcMy-thw in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:53 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:54 https://api.yelp.com:443 "GET /v3/businesses/OdvsJeHsw5IX5Ott-fu45g/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:54 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:54 https://api.yelp.com:443 "GET /v3/businesses/w_wVx7uiE1hGodvuKB0hCg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:54 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:54 https://api.yelp.com:443 "GET /v3/businesses/cfXXIgq781w7eimsXfVyNQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:54 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:54 https://api.yelp.com:443 "GET /v3/businesses/gkJuq4HQzbbhqFBL6wtGvg/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:54 No reviews for gkJuq4HQzbbhqFBL6wtGvg in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:54 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:55 https://api.yelp.com:443 "GET /v3/businesses/y81xPQVTYcnpOs9pI0C1Yw/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:55 No reviews for y81xPQVTYcnpOs9pI0C1Yw in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:55 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:55 https://api.yelp.com:443 "GET /v3/businesses/yvoVaPO_uzAMliixefKIKw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:55 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:55 https://api.yelp.com:443 "GET /v3/businesses/ZmXJkz9sm7mnDjzb7bAZmA/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:55 No reviews for ZmXJkz9sm7mnDjzb7bAZmA in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:55 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:56 https://api.yelp.com:443 "GET /v3/businesses/JLR9ZVteX9H9Nh-HHwf7iQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:56 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:56 https://api.yelp.com:443 "GET /v3/businesses/u4Zm3R-uAWiIIfLHcUEjSw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:56 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:56 https://api.yelp.com:443 "GET /v3/businesses/1VIy_1g0uguwKKakc8IAMQ/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:56 No reviews for 1VIy_1g0uguwKKakc8IAMQ in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:56 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:57 https://api.yelp.com:443 "GET /v3/businesses/_iv7sFY0gyHvlce1ATNk-Q/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:57 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:57 https://api.yelp.com:443 "GET /v3/businesses/7c9XaLppFBaQcKqjDviCGQ/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:57 No reviews for 7c9XaLppFBaQcKqjDviCGQ in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:57 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:57 https://api.yelp.com:443 "GET /v3/businesses/b4g5i9mjBGSyNRXl39Jmzw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:57 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:58 https://api.yelp.com:443 "GET /v3/businesses/GkcTmXYfhchXNj6tjxo2aA/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:58 No reviews for GkcTmXYfhchXNj6tjxo2aA in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:58 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:58 https://api.yelp.com:443 "GET /v3/businesses/04xy9Ay3dw0M8hBONCXv0A/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:58 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:58 https://api.yelp.com:443 "GET /v3/businesses/ikHtGONS_FL9-DTIpWJ56g/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:58 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:59 https://api.yelp.com:443 "GET /v3/businesses/nnHQ86ShjfHf4iEY_ZcwWA/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:59 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:59 https://api.yelp.com:443 "GET /v3/businesses/2i1wuynfBBIRWj9cEezW0g/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:59 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:59 https://api.yelp.com:443 "GET /v3/businesses/7QEKmzINOt_z_mud6arLFw/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:06:59 No reviews for 7QEKmzINOt_z_mud6arLFw in yelp endpoint is found..
+DEBUG: 08.07.2025 07:06:59 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:06:59 https://api.yelp.com:443 "GET /v3/businesses/KfhITolFOnq_YIOe1wgy5A/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:06:59 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:00 https://api.yelp.com:443 "GET /v3/businesses/wtIm5A8Hpf6FsyDZXIv2kw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:00 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:00 https://api.yelp.com:443 "GET /v3/businesses/hdwEdEwa92lqZdeeCmovbA/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:00 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:01 https://api.yelp.com:443 "GET /v3/businesses/9ZPcHfkxl9K4JPaN1qN9Uw/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:01 No reviews for 9ZPcHfkxl9K4JPaN1qN9Uw in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:01 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:01 https://api.yelp.com:443 "GET /v3/businesses/awvFl5TTgY0-5DhKX93trg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:01 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:01 https://api.yelp.com:443 "GET /v3/businesses/HK0Pobz8Z7dt69dE6qrYNg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:01 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:02 https://api.yelp.com:443 "GET /v3/businesses/SE0e-B-l0Pj6iYCmx9kZtw/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:02 No reviews for SE0e-B-l0Pj6iYCmx9kZtw in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:02 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:02 https://api.yelp.com:443 "GET /v3/businesses/2i-NJlk8eR2bSwBjE73nBA/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:02 No reviews for 2i-NJlk8eR2bSwBjE73nBA in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:02 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:02 https://api.yelp.com:443 "GET /v3/businesses/ftjzHl6XsLbHAZHMF0Kydw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:02 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:02 https://api.yelp.com:443 "GET /v3/businesses/X81L2bjRmoSxAgTBrwueaA/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:02 No reviews for X81L2bjRmoSxAgTBrwueaA in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:03 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:03 https://api.yelp.com:443 "GET /v3/businesses/bXWM8VFa3x2gwYHk0ebqnA/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:03 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:03 https://api.yelp.com:443 "GET /v3/businesses/HTXTqztrS2keneRywwYBBQ/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:03 No reviews for HTXTqztrS2keneRywwYBBQ in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:03 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:03 https://api.yelp.com:443 "GET /v3/businesses/WSx714tFoxyLma2ZXAbCXQ/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:03 No reviews for WSx714tFoxyLma2ZXAbCXQ in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:03 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:04 https://api.yelp.com:443 "GET /v3/businesses/J8UQDsm_-To9wucebzp7Sg/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:04 No reviews for J8UQDsm_-To9wucebzp7Sg in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:04 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:04 https://api.yelp.com:443 "GET /v3/businesses/Lln_b6frkcZLlOQThNDK3Q/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:04 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:05 https://api.yelp.com:443 "GET /v3/businesses/WQCmSO-VUGd1GimmRM8x1g/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:05 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:05 https://api.yelp.com:443 "GET /v3/businesses/E2QRKQOxlj262nYFqbnfnQ/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:05 No reviews for E2QRKQOxlj262nYFqbnfnQ in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:05 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:05 https://api.yelp.com:443 "GET /v3/businesses/yHfA3Bg4GXYstVh5S05h4A/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:05 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:06 https://api.yelp.com:443 "GET /v3/businesses/jgumpa5p423LgXRnXOZdkQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:06 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:06 https://api.yelp.com:443 "GET /v3/businesses/GoUHXrFEFQV_6J-lsxDyRw/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:06 No reviews for GoUHXrFEFQV_6J-lsxDyRw in yelp endpoint is found..
+INFO: 08.07.2025 07:07:06 Ingesting yelp businesses data into Postgres....
+INFO: 08.07.2025 07:07:06 Target Schema:raw_datasets but table:yelp_businesses does not exist so table:yelp_businesses will be ingested into Schema:raw_datasets..
+INFO: 08.07.2025 07:07:06 yelp_businesses has been ingested in schema:raw_datasets.
+INFO: 08.07.2025 07:07:06 yelp businesses ingested successfully..
+DEBUG: 08.07.2025 07:07:06 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:06 https://api.yelp.com:443 "GET /v3/businesses/search?term=restaurants&price=1%2C2%2C3&location=Bielefeld HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:06 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:07 https://api.yelp.com:443 "GET /v3/businesses/search?term=restaurants&price=1%2C2%2C3&location=Hamm HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:07 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:07 https://api.yelp.com:443 "GET /v3/businesses/search?term=restaurants&price=1%2C2%2C3&location=Paderborn HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:07 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:08 https://api.yelp.com:443 "GET /v3/businesses/search?term=restaurants&price=1%2C2%2C3&location=Essen HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:08 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:08 https://api.yelp.com:443 "GET /v3/businesses/search?term=restaurants&price=1%2C2%2C3&location=Dortmund HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:08 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:09 https://api.yelp.com:443 "GET /v3/businesses/search?term=restaurants&price=1%2C2%2C3&location=Cologne HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:09 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:09 https://api.yelp.com:443 "GET /v3/businesses/search?term=restaurants&price=1%2C2%2C3&location=Dusseldorf HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:09 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:10 https://api.yelp.com:443 "GET /v3/businesses/search?term=restaurants&price=1%2C2%2C3&location=Bochum HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:10 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:10 https://api.yelp.com:443 "GET /v3/businesses/search?term=restaurants&price=1%2C2%2C3&location=Hanover HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:10 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:10 https://api.yelp.com:443 "GET /v3/businesses/search?term=restaurants&price=1%2C2%2C3&location=Bielefeld HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:10 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:11 https://api.yelp.com:443 "GET /v3/businesses/search?term=restaurants&price=1%2C2%2C3&location=Hamm HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:11 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:11 https://api.yelp.com:443 "GET /v3/businesses/search?term=restaurants&price=1%2C2%2C3&location=Paderborn HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:11 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:12 https://api.yelp.com:443 "GET /v3/businesses/search?term=restaurants&price=1%2C2%2C3&location=Essen HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:12 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:12 https://api.yelp.com:443 "GET /v3/businesses/search?term=restaurants&price=1%2C2%2C3&location=Dortmund HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:12 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:13 https://api.yelp.com:443 "GET /v3/businesses/search?term=restaurants&price=1%2C2%2C3&location=Cologne HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:13 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:14 https://api.yelp.com:443 "GET /v3/businesses/search?term=restaurants&price=1%2C2%2C3&location=Dusseldorf HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:14 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:14 https://api.yelp.com:443 "GET /v3/businesses/search?term=restaurants&price=1%2C2%2C3&location=Bochum HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:14 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:14 https://api.yelp.com:443 "GET /v3/businesses/search?term=restaurants&price=1%2C2%2C3&location=Hanover HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:14 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:15 https://api.yelp.com:443 "GET /v3/businesses/FBZAp-gwBzRVcX_qy6bYVQ/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:15 No reviews for FBZAp-gwBzRVcX_qy6bYVQ in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:15 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:15 https://api.yelp.com:443 "GET /v3/businesses/-JjN97rOBBMIsIMhTNXDhg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:15 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:15 https://api.yelp.com:443 "GET /v3/businesses/T8ou1dVjUCJEYQnDyyjxcw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:15 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:15 https://api.yelp.com:443 "GET /v3/businesses/R4kkeXWZCl5qWe6HUCbjhQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:15 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:16 https://api.yelp.com:443 "GET /v3/businesses/5ec7LxlhVyGqUplGjyqytw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:16 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:16 https://api.yelp.com:443 "GET /v3/businesses/fBTteWVkebOu2aGuvubB_Q/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:16 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:17 https://api.yelp.com:443 "GET /v3/businesses/nZnTm05xSPT4Bo-59mOWLw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:17 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:17 https://api.yelp.com:443 "GET /v3/businesses/bTUzQpA7wrEhZ_2qcKTQ0A/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:17 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:17 https://api.yelp.com:443 "GET /v3/businesses/ye11QN7w7e6PTjrBEALc1g/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:17 No reviews for ye11QN7w7e6PTjrBEALc1g in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:17 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:17 https://api.yelp.com:443 "GET /v3/businesses/Kpry4o-SnEcmZGNhydVtNg/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:17 No reviews for Kpry4o-SnEcmZGNhydVtNg in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:17 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:18 https://api.yelp.com:443 "GET /v3/businesses/2OUO8pLF6cGPQgX3ZgH7qQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:18 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:18 https://api.yelp.com:443 "GET /v3/businesses/Z5E2BnmbOAhZPI36xt4nVA/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:18 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:18 https://api.yelp.com:443 "GET /v3/businesses/uUnFse-TYOH13Tdgv85tog/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:18 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:19 https://api.yelp.com:443 "GET /v3/businesses/-WQZamcfmW_ZK4whz4YZow/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:19 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:19 https://api.yelp.com:443 "GET /v3/businesses/pLB8JdfC_LGRsB6ZCKlvAg/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:19 No reviews for pLB8JdfC_LGRsB6ZCKlvAg in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:19 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:19 https://api.yelp.com:443 "GET /v3/businesses/f5xSxMpmE1UfYtMmR5NoSw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:19 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:20 https://api.yelp.com:443 "GET /v3/businesses/9CgmvnEkPKn1LH5ghQhbpA/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:20 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:20 https://api.yelp.com:443 "GET /v3/businesses/hi1cf5e--uACElON15yeLg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:20 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:20 https://api.yelp.com:443 "GET /v3/businesses/AimcDZzhcK1RUVS_TWyctw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:20 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:20 https://api.yelp.com:443 "GET /v3/businesses/e0K-ASEl6s8rcKCkNDM1Lg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:20 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:21 https://api.yelp.com:443 "GET /v3/businesses/4-8qn7CFGUn-ibEDanda2Q/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:21 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:21 https://api.yelp.com:443 "GET /v3/businesses/npnMyTU2DJJNTTQNati4Bg/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:21 No reviews for npnMyTU2DJJNTTQNati4Bg in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:21 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:21 https://api.yelp.com:443 "GET /v3/businesses/1uXNDnnQTeCAKEZQ7ST2gw/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:21 No reviews for 1uXNDnnQTeCAKEZQ7ST2gw in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:21 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:22 https://api.yelp.com:443 "GET /v3/businesses/otiY6ey2xTN6p56f4hRDyg/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:22 No reviews for otiY6ey2xTN6p56f4hRDyg in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:22 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:22 https://api.yelp.com:443 "GET /v3/businesses/MW2euAqBLdI32Nm4_bPc7w/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:22 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:22 https://api.yelp.com:443 "GET /v3/businesses/ZanDj3x8SP6RmyKHveH_lg/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:22 No reviews for ZanDj3x8SP6RmyKHveH_lg in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:22 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:23 https://api.yelp.com:443 "GET /v3/businesses/1vDhYlefyo6E_0sRjGEnJg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:23 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:23 https://api.yelp.com:443 "GET /v3/businesses/6R8R_EoSV4pBbF06xEsUng/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:23 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:23 https://api.yelp.com:443 "GET /v3/businesses/nHGny7ceHmpOGeWBaCVjsg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:23 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:23 https://api.yelp.com:443 "GET /v3/businesses/0ng_XDXCUy16WpHk1weWJg/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:23 No reviews for 0ng_XDXCUy16WpHk1weWJg in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:23 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:24 https://api.yelp.com:443 "GET /v3/businesses/uzXYLG4V0WZlmMUuQqv1iQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:24 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:24 https://api.yelp.com:443 "GET /v3/businesses/vcQ2sl4vdJaa8F8m0vblpA/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:24 No reviews for vcQ2sl4vdJaa8F8m0vblpA in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:24 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:24 https://api.yelp.com:443 "GET /v3/businesses/TVYyeplhO91QPUPP4OsKhg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:24 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:25 https://api.yelp.com:443 "GET /v3/businesses/e6XiItLpdt8oykTI8ALZoQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:25 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:25 https://api.yelp.com:443 "GET /v3/businesses/QtBgUi_hfAOV0znTrD1s0A/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:25 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:25 https://api.yelp.com:443 "GET /v3/businesses/ROej6waL4wlDgx1K8emsnw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:25 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:25 https://api.yelp.com:443 "GET /v3/businesses/aquFJ_sk8wMdU-e8esULQQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:25 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:26 https://api.yelp.com:443 "GET /v3/businesses/h9Ebgi3U1TjSXbKx_ak8RA/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:26 No reviews for h9Ebgi3U1TjSXbKx_ak8RA in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:26 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:26 https://api.yelp.com:443 "GET /v3/businesses/cZwT83WrQY0FPYSypoVRBA/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:26 No reviews for cZwT83WrQY0FPYSypoVRBA in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:26 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:26 https://api.yelp.com:443 "GET /v3/businesses/SjxTc3TFab8Tnk1Cb8ID1w/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:26 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:26 https://api.yelp.com:443 "GET /v3/businesses/JehYCaXpf2DGybcFF2POew/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:26 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:27 https://api.yelp.com:443 "GET /v3/businesses/sGgKWrt36O4qSW2Jj_jPVA/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:27 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:27 https://api.yelp.com:443 "GET /v3/businesses/8ON0Am8Fbj90_F3fjGNLBA/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:27 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:27 https://api.yelp.com:443 "GET /v3/businesses/E1WLWaitpLxyY1IuMOZDtg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:27 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:28 https://api.yelp.com:443 "GET /v3/businesses/8z4a_uzhkJKgCKpklS1Wkg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:28 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:28 https://api.yelp.com:443 "GET /v3/businesses/CTzvAGLYmf9RfatBuHu90A/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:28 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:28 https://api.yelp.com:443 "GET /v3/businesses/MmUSbS5iAzkgvk2X5ri2pQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:28 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:28 https://api.yelp.com:443 "GET /v3/businesses/ztFGuBDuXxlr0ShU40_2jQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:28 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:29 https://api.yelp.com:443 "GET /v3/businesses/oqIzGPNMx-qJuhTyHIraHg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:29 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:29 https://api.yelp.com:443 "GET /v3/businesses/Ht3fkIKpKd9fMBHzpbZF4g/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:29 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:29 https://api.yelp.com:443 "GET /v3/businesses/GsVH-mo-gcyytmlMsC9AzA/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:29 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:30 https://api.yelp.com:443 "GET /v3/businesses/IfXV56AKR9XczAN0E7Q65A/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:30 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:30 https://api.yelp.com:443 "GET /v3/businesses/6SzJxbph2ww5izWNf5931Q/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:30 No reviews for 6SzJxbph2ww5izWNf5931Q in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:30 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:30 https://api.yelp.com:443 "GET /v3/businesses/za4bAv4ZNea4CTTMnCQ4zg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:30 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:31 https://api.yelp.com:443 "GET /v3/businesses/u_88iRCF3kgdChvJ5P_JdQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:31 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:31 https://api.yelp.com:443 "GET /v3/businesses/sISdfUmJhYkR_KndhAsnRg/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:31 No reviews for sISdfUmJhYkR_KndhAsnRg in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:31 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:31 https://api.yelp.com:443 "GET /v3/businesses/zfPYIAKEpj86vfcaCv8fAQ/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:31 No reviews for zfPYIAKEpj86vfcaCv8fAQ in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:31 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:31 https://api.yelp.com:443 "GET /v3/businesses/DYD_RpB0khXAExY4CtITlg/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:31 No reviews for DYD_RpB0khXAExY4CtITlg in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:31 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:32 https://api.yelp.com:443 "GET /v3/businesses/xJtyoVZgmr0YwizCLn7KxA/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:32 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:32 https://api.yelp.com:443 "GET /v3/businesses/VAVo6xPCd6vnwXCo4w08fg/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:32 No reviews for VAVo6xPCd6vnwXCo4w08fg in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:32 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:32 https://api.yelp.com:443 "GET /v3/businesses/cPl9jDWtT4pf0uSyO-netA/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:32 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:32 https://api.yelp.com:443 "GET /v3/businesses/MDAqcgvUf0wacUBwc9kTIg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:32 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:33 https://api.yelp.com:443 "GET /v3/businesses/qhPL7p0O89Pbe_Q-oo6h7w/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:33 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:33 https://api.yelp.com:443 "GET /v3/businesses/Wmhldr5d7-jexHc2rCkVLQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:33 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:33 https://api.yelp.com:443 "GET /v3/businesses/dhjUtrjKs_tCmKoO-11bYw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:33 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:34 https://api.yelp.com:443 "GET /v3/businesses/S_Rq8srYW5V0g_lx80F7wg/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:34 No reviews for S_Rq8srYW5V0g_lx80F7wg in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:34 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:34 https://api.yelp.com:443 "GET /v3/businesses/uBzUNj-sBtIPDgEqph_PSw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:34 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:34 https://api.yelp.com:443 "GET /v3/businesses/afeHFi9nRuDxBb1B6P0ECg/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:34 No reviews for afeHFi9nRuDxBb1B6P0ECg in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:34 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:34 https://api.yelp.com:443 "GET /v3/businesses/w2fHBPOCrXESL5hk1nivDw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:34 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:35 https://api.yelp.com:443 "GET /v3/businesses/6WFmgzOyUKA9fQ3qMuG4gw/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:35 No reviews for 6WFmgzOyUKA9fQ3qMuG4gw in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:35 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:35 https://api.yelp.com:443 "GET /v3/businesses/SaeIgexPoc5ftJ5xh4fEsg/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:35 No reviews for SaeIgexPoc5ftJ5xh4fEsg in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:35 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:35 https://api.yelp.com:443 "GET /v3/businesses/7_XEJd3qTYLYiCQxxgElcw/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:35 No reviews for 7_XEJd3qTYLYiCQxxgElcw in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:35 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:36 https://api.yelp.com:443 "GET /v3/businesses/ITyvbUmC4S0d_Hb-2vlaQA/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:36 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:36 https://api.yelp.com:443 "GET /v3/businesses/_gz5R2QKY-Zm3XdNui8bYA/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:36 No reviews for _gz5R2QKY-Zm3XdNui8bYA in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:36 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:36 https://api.yelp.com:443 "GET /v3/businesses/xfRSbjb-iLHFWdT4vSqWNw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:36 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:37 https://api.yelp.com:443 "GET /v3/businesses/LK6laGbpQDGC7uWCi57DCQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:37 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:37 https://api.yelp.com:443 "GET /v3/businesses/dj6s5t_ickGirCdLbJpEuQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:37 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:37 https://api.yelp.com:443 "GET /v3/businesses/1wM2CJu4YyGv4hTWZ0EvxQ/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:37 No reviews for 1wM2CJu4YyGv4hTWZ0EvxQ in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:37 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:37 https://api.yelp.com:443 "GET /v3/businesses/6ZtOvaF61jy_o8KKJBSe6w/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:37 No reviews for 6ZtOvaF61jy_o8KKJBSe6w in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:37 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:38 https://api.yelp.com:443 "GET /v3/businesses/N1zDFDYRvBAP-eK1PI3t5Q/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:38 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:38 https://api.yelp.com:443 "GET /v3/businesses/f7G_P03xol9nGI-9L2ZIgw/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:38 No reviews for f7G_P03xol9nGI-9L2ZIgw in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:38 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:38 https://api.yelp.com:443 "GET /v3/businesses/QjcIJK8ZV-sBxBZBA2CaCg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:38 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:39 https://api.yelp.com:443 "GET /v3/businesses/drDz_7QDuj0QT-as4ztM_Q/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:39 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:39 https://api.yelp.com:443 "GET /v3/businesses/kT-MHvdHIbK-aMvI6FK35g/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:39 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:39 https://api.yelp.com:443 "GET /v3/businesses/hOc3PVokcSoAq0j3yPW87Q/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:39 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:40 https://api.yelp.com:443 "GET /v3/businesses/uEyGci8ZEMjBEi7hP7KQJQ/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:40 No reviews for uEyGci8ZEMjBEi7hP7KQJQ in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:40 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:40 https://api.yelp.com:443 "GET /v3/businesses/24x1CvLUPXmneIHJxITR9g/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:40 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:40 https://api.yelp.com:443 "GET /v3/businesses/7eGm7ITuToc3tpbfg3qKVQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:40 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:40 https://api.yelp.com:443 "GET /v3/businesses/MdOX8eh0oL69XpHxfHS3fQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:40 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:41 https://api.yelp.com:443 "GET /v3/businesses/KeYJA_BKdrNCh3WDQsTaqg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:41 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:41 https://api.yelp.com:443 "GET /v3/businesses/vXdgnyPFbMngB-K17sPklQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:41 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:41 https://api.yelp.com:443 "GET /v3/businesses/Z-jyksCFiebKSsWQqHgbwg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:41 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:42 https://api.yelp.com:443 "GET /v3/businesses/IKfM8WVRH6pHJ885wH4teA/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:42 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:42 https://api.yelp.com:443 "GET /v3/businesses/HPijIPtD0xI_pkgUvuriXQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:42 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:42 https://api.yelp.com:443 "GET /v3/businesses/AoDCEKUtEENC_0kC_kBMXw/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:42 No reviews for AoDCEKUtEENC_0kC_kBMXw in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:42 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:43 https://api.yelp.com:443 "GET /v3/businesses/x6I4am8_Z3h_rMU1hudoYQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:43 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:43 https://api.yelp.com:443 "GET /v3/businesses/J6SlqofrBMQ28hEFRCjSiA/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:43 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:43 https://api.yelp.com:443 "GET /v3/businesses/ajm7NunAE-T6E8PNsKarYg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:43 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:44 https://api.yelp.com:443 "GET /v3/businesses/7RQMbVhtptUEep5jqU67WQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:44 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:44 https://api.yelp.com:443 "GET /v3/businesses/lHkyioWSI72pD3ohP9HH2Q/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:44 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:44 https://api.yelp.com:443 "GET /v3/businesses/dqYEKkyDZrm6-MkiNEjhhg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:44 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:44 https://api.yelp.com:443 "GET /v3/businesses/XVnRt9OR2znTjX-5Qo6hcg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:44 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:45 https://api.yelp.com:443 "GET /v3/businesses/NMkkWcifZmVCtc3m5M5dxg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:45 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:45 https://api.yelp.com:443 "GET /v3/businesses/1wvO7berkWgM81fnuDPMVQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:45 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:45 https://api.yelp.com:443 "GET /v3/businesses/6ayrU29LOns1IHAs0zEztQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:45 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:46 https://api.yelp.com:443 "GET /v3/businesses/Pqf5WQt17Z1s4EHdWFvBqw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:46 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:46 https://api.yelp.com:443 "GET /v3/businesses/XaHaanOowGBaohtEzlB4Cg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:46 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:46 https://api.yelp.com:443 "GET /v3/businesses/hb_sd2FM4-lRMmXJgjRiVg/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:46 No reviews for hb_sd2FM4-lRMmXJgjRiVg in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:46 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:47 https://api.yelp.com:443 "GET /v3/businesses/g10W5MHXbaHwObF3QAArkA/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:47 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:47 https://api.yelp.com:443 "GET /v3/businesses/XYMdSkN3HJbZs3mnjB6qcA/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:47 No reviews for XYMdSkN3HJbZs3mnjB6qcA in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:47 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:47 https://api.yelp.com:443 "GET /v3/businesses/iB0ME2MAo0sMFUZLHNsjYw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:47 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:48 https://api.yelp.com:443 "GET /v3/businesses/PU71WTNSwB4mOiAXYfnOXg/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:48 No reviews for PU71WTNSwB4mOiAXYfnOXg in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:48 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:48 https://api.yelp.com:443 "GET /v3/businesses/JyFSvCYfWxnYIqbVzDS6uw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:48 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:48 https://api.yelp.com:443 "GET /v3/businesses/d7sTIBfEgrS8b7a4HzRNxQ/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:48 No reviews for d7sTIBfEgrS8b7a4HzRNxQ in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:48 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:48 https://api.yelp.com:443 "GET /v3/businesses/QR1QAqB_W9HcSUxF_qCz9g/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:48 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:49 https://api.yelp.com:443 "GET /v3/businesses/7QNvqOZJoE5p1-m1jQf9fw/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:49 No reviews for 7QNvqOZJoE5p1-m1jQf9fw in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:49 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:49 https://api.yelp.com:443 "GET /v3/businesses/-DDn-IIfRkHkocrhqFXvEg/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:49 No reviews for -DDn-IIfRkHkocrhqFXvEg in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:49 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:49 https://api.yelp.com:443 "GET /v3/businesses/M1HMp1ArlQa17iEVGy7MgA/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:49 No reviews for M1HMp1ArlQa17iEVGy7MgA in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:49 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:50 https://api.yelp.com:443 "GET /v3/businesses/L3xD2V-oJnrmyR8jZxXOoQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:50 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:50 https://api.yelp.com:443 "GET /v3/businesses/74PuSg83MlH37VWUCkMk2g/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:50 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:50 https://api.yelp.com:443 "GET /v3/businesses/hWisZsajj5mEPxVes7O3Lw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:50 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:51 https://api.yelp.com:443 "GET /v3/businesses/AYk2WoDdkS2BmBRUrYgfww/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:51 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:51 https://api.yelp.com:443 "GET /v3/businesses/lwMlhY1CCbsKsatbv_rxfw/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:51 No reviews for lwMlhY1CCbsKsatbv_rxfw in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:51 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:51 https://api.yelp.com:443 "GET /v3/businesses/D8bHjXlskxE4COlszJeStw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:51 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:51 https://api.yelp.com:443 "GET /v3/businesses/lO2-TVAfVJbvJ7V61fX8Tw/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:51 No reviews for lO2-TVAfVJbvJ7V61fX8Tw in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:51 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:52 https://api.yelp.com:443 "GET /v3/businesses/eh_JTH-Yzmg4j5XrXO3SLw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:52 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:52 https://api.yelp.com:443 "GET /v3/businesses/OXPa3fljFNAZxK97oIXT9w/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:52 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:53 https://api.yelp.com:443 "GET /v3/businesses/Il7EJp0N4kJHF_0i0trpQw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:53 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:53 https://api.yelp.com:443 "GET /v3/businesses/ChbCLBnEFd49tPAZ9LZVgw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:53 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:53 https://api.yelp.com:443 "GET /v3/businesses/qDElAd78CzjhduvbwV9P0g/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:53 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:54 https://api.yelp.com:443 "GET /v3/businesses/VNZBQyongHerSxQI1Dhhkg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:54 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:54 https://api.yelp.com:443 "GET /v3/businesses/M3qvZzRhQvvp6euyyuhopQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:54 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:54 https://api.yelp.com:443 "GET /v3/businesses/CiYoYGnzsrqb_bLt5cc4dQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:54 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:54 https://api.yelp.com:443 "GET /v3/businesses/DrGd58AdjWhpM1wchvCcrQ/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:54 No reviews for DrGd58AdjWhpM1wchvCcrQ in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:54 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:55 https://api.yelp.com:443 "GET /v3/businesses/HYawE1lVNXtI2xHcMy-thw/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:55 No reviews for HYawE1lVNXtI2xHcMy-thw in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:55 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:55 https://api.yelp.com:443 "GET /v3/businesses/OdvsJeHsw5IX5Ott-fu45g/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:55 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:55 https://api.yelp.com:443 "GET /v3/businesses/w_wVx7uiE1hGodvuKB0hCg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:55 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:55 https://api.yelp.com:443 "GET /v3/businesses/cfXXIgq781w7eimsXfVyNQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:55 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:56 https://api.yelp.com:443 "GET /v3/businesses/gkJuq4HQzbbhqFBL6wtGvg/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:56 No reviews for gkJuq4HQzbbhqFBL6wtGvg in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:56 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:56 https://api.yelp.com:443 "GET /v3/businesses/y81xPQVTYcnpOs9pI0C1Yw/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:56 No reviews for y81xPQVTYcnpOs9pI0C1Yw in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:56 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:57 https://api.yelp.com:443 "GET /v3/businesses/yvoVaPO_uzAMliixefKIKw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:57 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:57 https://api.yelp.com:443 "GET /v3/businesses/ZmXJkz9sm7mnDjzb7bAZmA/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:57 No reviews for ZmXJkz9sm7mnDjzb7bAZmA in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:57 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:57 https://api.yelp.com:443 "GET /v3/businesses/JLR9ZVteX9H9Nh-HHwf7iQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:57 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:57 https://api.yelp.com:443 "GET /v3/businesses/u4Zm3R-uAWiIIfLHcUEjSw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:57 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:58 https://api.yelp.com:443 "GET /v3/businesses/1VIy_1g0uguwKKakc8IAMQ/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:58 No reviews for 1VIy_1g0uguwKKakc8IAMQ in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:58 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:58 https://api.yelp.com:443 "GET /v3/businesses/_iv7sFY0gyHvlce1ATNk-Q/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:58 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:58 https://api.yelp.com:443 "GET /v3/businesses/7c9XaLppFBaQcKqjDviCGQ/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:58 No reviews for 7c9XaLppFBaQcKqjDviCGQ in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:58 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:59 https://api.yelp.com:443 "GET /v3/businesses/b4g5i9mjBGSyNRXl39Jmzw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:59 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:59 https://api.yelp.com:443 "GET /v3/businesses/GkcTmXYfhchXNj6tjxo2aA/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:07:59 No reviews for GkcTmXYfhchXNj6tjxo2aA in yelp endpoint is found..
+DEBUG: 08.07.2025 07:07:59 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:07:59 https://api.yelp.com:443 "GET /v3/businesses/04xy9Ay3dw0M8hBONCXv0A/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:07:59 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:08:00 https://api.yelp.com:443 "GET /v3/businesses/ikHtGONS_FL9-DTIpWJ56g/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:08:00 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:08:00 https://api.yelp.com:443 "GET /v3/businesses/nnHQ86ShjfHf4iEY_ZcwWA/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:08:00 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:08:00 https://api.yelp.com:443 "GET /v3/businesses/2i1wuynfBBIRWj9cEezW0g/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:08:00 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:08:01 https://api.yelp.com:443 "GET /v3/businesses/7QEKmzINOt_z_mud6arLFw/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:08:01 No reviews for 7QEKmzINOt_z_mud6arLFw in yelp endpoint is found..
+DEBUG: 08.07.2025 07:08:01 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:08:01 https://api.yelp.com:443 "GET /v3/businesses/KfhITolFOnq_YIOe1wgy5A/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:08:01 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:08:01 https://api.yelp.com:443 "GET /v3/businesses/wtIm5A8Hpf6FsyDZXIv2kw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:08:01 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:08:01 https://api.yelp.com:443 "GET /v3/businesses/hdwEdEwa92lqZdeeCmovbA/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:08:01 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:08:02 https://api.yelp.com:443 "GET /v3/businesses/9ZPcHfkxl9K4JPaN1qN9Uw/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:08:02 No reviews for 9ZPcHfkxl9K4JPaN1qN9Uw in yelp endpoint is found..
+DEBUG: 08.07.2025 07:08:02 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:08:02 https://api.yelp.com:443 "GET /v3/businesses/awvFl5TTgY0-5DhKX93trg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:08:02 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:08:03 https://api.yelp.com:443 "GET /v3/businesses/HK0Pobz8Z7dt69dE6qrYNg/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:08:03 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:08:03 https://api.yelp.com:443 "GET /v3/businesses/SE0e-B-l0Pj6iYCmx9kZtw/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:08:03 No reviews for SE0e-B-l0Pj6iYCmx9kZtw in yelp endpoint is found..
+DEBUG: 08.07.2025 07:08:03 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:08:03 https://api.yelp.com:443 "GET /v3/businesses/2i-NJlk8eR2bSwBjE73nBA/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:08:03 No reviews for 2i-NJlk8eR2bSwBjE73nBA in yelp endpoint is found..
+DEBUG: 08.07.2025 07:08:03 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:08:03 https://api.yelp.com:443 "GET /v3/businesses/ftjzHl6XsLbHAZHMF0Kydw/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:08:03 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:08:04 https://api.yelp.com:443 "GET /v3/businesses/X81L2bjRmoSxAgTBrwueaA/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:08:04 No reviews for X81L2bjRmoSxAgTBrwueaA in yelp endpoint is found..
+DEBUG: 08.07.2025 07:08:04 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:08:04 https://api.yelp.com:443 "GET /v3/businesses/bXWM8VFa3x2gwYHk0ebqnA/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:08:04 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:08:04 https://api.yelp.com:443 "GET /v3/businesses/HTXTqztrS2keneRywwYBBQ/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:08:04 No reviews for HTXTqztrS2keneRywwYBBQ in yelp endpoint is found..
+DEBUG: 08.07.2025 07:08:04 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:08:04 https://api.yelp.com:443 "GET /v3/businesses/WSx714tFoxyLma2ZXAbCXQ/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:08:04 No reviews for WSx714tFoxyLma2ZXAbCXQ in yelp endpoint is found..
+DEBUG: 08.07.2025 07:08:04 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:08:05 https://api.yelp.com:443 "GET /v3/businesses/J8UQDsm_-To9wucebzp7Sg/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:08:05 No reviews for J8UQDsm_-To9wucebzp7Sg in yelp endpoint is found..
+DEBUG: 08.07.2025 07:08:05 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:08:05 https://api.yelp.com:443 "GET /v3/businesses/Lln_b6frkcZLlOQThNDK3Q/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:08:05 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:08:05 https://api.yelp.com:443 "GET /v3/businesses/WQCmSO-VUGd1GimmRM8x1g/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:08:05 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:08:05 https://api.yelp.com:443 "GET /v3/businesses/E2QRKQOxlj262nYFqbnfnQ/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:08:06 No reviews for E2QRKQOxlj262nYFqbnfnQ in yelp endpoint is found..
+DEBUG: 08.07.2025 07:08:06 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:08:06 https://api.yelp.com:443 "GET /v3/businesses/yHfA3Bg4GXYstVh5S05h4A/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:08:06 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:08:06 https://api.yelp.com:443 "GET /v3/businesses/jgumpa5p423LgXRnXOZdkQ/reviews HTTP/1.1" 200 None.
+DEBUG: 08.07.2025 07:08:06 Starting new HTTPS connection (1): api.yelp.com:443.
+DEBUG: 08.07.2025 07:08:06 https://api.yelp.com:443 "GET /v3/businesses/GoUHXrFEFQV_6J-lsxDyRw/reviews HTTP/1.1" 200 None.
+INFO: 08.07.2025 07:08:06 No reviews for GoUHXrFEFQV_6J-lsxDyRw in yelp endpoint is found..
+INFO: 08.07.2025 07:08:06 Ingesting yelp business reviews data into Postgres....
+INFO: 08.07.2025 07:08:06 Target Schema:raw_datasets but table:yelp_business_reviews does not exist so table:yelp_business_reviews will be ingested into Schema:raw_datasets..
+INFO: 08.07.2025 07:08:06 yelp_business_reviews has been ingested in schema:raw_datasets.
+INFO: 08.07.2025 07:08:06 yelp business reviews ingested successfully..
+INFO: 08.07.2025 07:08:06 Data Ingestion process successfully completed..
+INFO: 08.07.2025 07:08:06 file_cache is only supported with oauth2client<4.0.0.
+INFO: 08.07.2025 07:08:06 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 08.07.2025 07:08:06 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271LJi-BzMhNrrZhdqZcS0VH4wIhqwxrSrs%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+DEBUG: 08.07.2025 07:08:07 URL being requested: GET https://www.googleapis.com/drive/v3/files/1OlChde6WPPV_9vKySWWnuAJ74VUsRnA9?fields=parents&supportsAllDrives=true&alt=json.
+DEBUG: 08.07.2025 07:08:07 URL being requested: PATCH https://www.googleapis.com/drive/v3/files/1OlChde6WPPV_9vKySWWnuAJ74VUsRnA9?addParents=1sWzCshNo5mU96pkzB1R31Ix24j6GT8Pq&removeParents=1LJi-BzMhNrrZhdqZcS0VH4wIhqwxrSrs&supportsAllDrives=true&fields=id%2C+parents&alt=json.
+DEBUG: 08.07.2025 07:08:08 URL being requested: GET https://www.googleapis.com/drive/v3/files/1yIjq2uIbLBouUOSPKiTai9yTCzSLr6xy?fields=parents&supportsAllDrives=true&alt=json.
+DEBUG: 08.07.2025 07:08:08 URL being requested: PATCH https://www.googleapis.com/drive/v3/files/1yIjq2uIbLBouUOSPKiTai9yTCzSLr6xy?addParents=1sWzCshNo5mU96pkzB1R31Ix24j6GT8Pq&removeParents=1LJi-BzMhNrrZhdqZcS0VH4wIhqwxrSrs&supportsAllDrives=true&fields=id%2C+parents&alt=json.
+INFO: 08.07.2025 07:08:10 Ingested files have been moved to archive folder..
+DEBUG: 08.07.2025 07:08:10 EOF in transport thread.

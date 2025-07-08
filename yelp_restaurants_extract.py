@@ -22,7 +22,7 @@ parameter = {
 }
 
 #location is a parameter that only accepts strings unlike price that accepts list.
-location = ["bielefeld","hamm","paderborn","essen","dortmund","köln","düsseldorf","bochum", "hanover"]
+location = ["Bielefeld","Hamm","Paderborn","Essen","Dortmund","Cologne","Dusseldorf","Bochum", "Hanover"]
 
 def get_businesses(dfs= None, df_lis = []) -> tuple:
     for place in location:
