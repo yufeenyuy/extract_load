@@ -1,0 +1,162 @@
+INFO: 10.07.2025 02:55:24 Redirect URI:, http://localhost:8080/.
+DEBUG: 10.07.2025 02:55:24 Generated new state W1nFxr3guzrnCydcxrhjVRhgVzhxEq..
+INFO: 10.07.2025 02:55:52 Redirect URI:, http://localhost:8080/.
+DEBUG: 10.07.2025 02:55:52 Generated new state lPDqqtSfvbPxnBYWUhUWVhvVReq7Bt..
+INFO: 10.07.2025 02:56:15 Redirect URI:, http://localhost:8080/.
+DEBUG: 10.07.2025 02:56:15 Generated new state 9qABA27j69HomJ41liSZGIs6TDCljD..
+INFO: 10.07.2025 02:56:25 Redirect URI:, http://localhost:8080/.
+DEBUG: 10.07.2025 02:56:25 Generated new state QSBVqAufNlmDKc365Ch0e9RpB25Mq6..
+INFO: 10.07.2025 03:28:07 Redirect URI:, http://localhost:8080/.
+DEBUG: 10.07.2025 03:28:07 Generated new state cOaP4W5QEDuma94YmMofl6ytBKjdyq..
+INFO: 10.07.2025 03:29:21 Redirect URI:, http://localhost:8080/.
+DEBUG: 10.07.2025 03:29:21 Generated new state mJY7zlxnjdiI9NrDrSJYnY3Mmtmaa5..
+INFO: 10.07.2025 03:30:47 Redirect URI:, http://localhost:8080/.
+DEBUG: 10.07.2025 03:30:47 Generated new state bICacSRfYaTkdF13vurHAuppeS6BkK..
+INFO: 10.07.2025 03:34:05 Redirect URI:, http://localhost:8080/.
+DEBUG: 10.07.2025 03:34:05 Generated new state HFtC1nIJrleNHX1B8Wo7hHVCjMqEQh..
+INFO: 10.07.2025 03:48:12 Redirect URI:, http://localhost:8080/.
+DEBUG: 10.07.2025 03:48:12 Generated new state k74qTWheWndHHY3EIrGA78Bs64nwYq..
+INFO: 10.07.2025 03:48:27 Redirect URI:, http://localhost:8080/.
+DEBUG: 10.07.2025 03:48:27 Generated new state XC36UzoiCNyJuO7CT0g0Qa1nJqwu0o..
+INFO: 10.07.2025 03:55:59 Redirect URI:, http://localhost:8080/.
+DEBUG: 10.07.2025 03:55:59 Generated new state 7b7zEjDiUOG61gWru9oRr00Vk7a5rl..
+DEBUG: 10.07.2025 03:55:59 Starting new HTTPS connection (1): oauth2.googleapis.com:443.
+DEBUG: 10.07.2025 03:55:59 https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None.
+INFO: 10.07.2025 03:55:59 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 03:55:59 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271kZ7u2SuV8gNgJWVgeMxalFz2f3wL_1bs%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 03:55:59 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 03:55:59 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271AKSCnh-BsPM9qLwaPqyr6rGQJSji1kMm%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 03:56:00 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 03:56:00 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271_GHMJB219_aqRVOL0v2ze_7Ux4aQ9AKL%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 03:56:00 file_cache is only supported with oauth2client<4.0.0.
+INFO: 10.07.2025 03:56:20 Redirect URI:, http://localhost:8080/.
+DEBUG: 10.07.2025 03:56:20 Generated new state wTuqDSo9uo76cRYw6daKKqvRrJzJiB..
+INFO: 10.07.2025 03:56:20 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 03:56:20 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271kZ7u2SuV8gNgJWVgeMxalFz2f3wL_1bs%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 03:56:21 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 03:56:21 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271AKSCnh-BsPM9qLwaPqyr6rGQJSji1kMm%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 03:56:21 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 03:56:21 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271_GHMJB219_aqRVOL0v2ze_7Ux4aQ9AKL%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 03:56:22 file_cache is only supported with oauth2client<4.0.0.
+INFO: 10.07.2025 03:57:25 Redirect URI:, http://localhost:8080/.
+DEBUG: 10.07.2025 03:57:25 Generated new state PFxfrSrRKDlLZmUjSKlKIV8jWjTeQC..
+INFO: 10.07.2025 03:57:25 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 03:57:25 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271kZ7u2SuV8gNgJWVgeMxalFz2f3wL_1bs%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 03:57:26 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 03:57:26 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271AKSCnh-BsPM9qLwaPqyr6rGQJSji1kMm%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 03:57:27 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 03:57:27 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271_GHMJB219_aqRVOL0v2ze_7Ux4aQ9AKL%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 03:57:27 file_cache is only supported with oauth2client<4.0.0.
+INFO: 10.07.2025 03:59:25 Redirect URI:, http://localhost:8080/.
+DEBUG: 10.07.2025 03:59:25 Generated new state TtqJn6ZRP2ezXDRdP0wrgBS4uklxqe..
+INFO: 10.07.2025 03:59:25 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 03:59:25 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271kZ7u2SuV8gNgJWVgeMxalFz2f3wL_1bs%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 03:59:26 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 03:59:26 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271AKSCnh-BsPM9qLwaPqyr6rGQJSji1kMm%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 03:59:26 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 03:59:26 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271_GHMJB219_aqRVOL0v2ze_7Ux4aQ9AKL%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 03:59:26 file_cache is only supported with oauth2client<4.0.0.
+INFO: 10.07.2025 04:00:46 Redirect URI:, http://localhost:8080/.
+DEBUG: 10.07.2025 04:00:46 Generated new state VQfEaglidiK8rljjBhuY2Y0yeV8x7b..
+INFO: 10.07.2025 04:00:46 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:00:46 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271kZ7u2SuV8gNgJWVgeMxalFz2f3wL_1bs%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:00:47 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:00:47 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271AKSCnh-BsPM9qLwaPqyr6rGQJSji1kMm%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:00:48 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:00:48 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271_GHMJB219_aqRVOL0v2ze_7Ux4aQ9AKL%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:00:48 file_cache is only supported with oauth2client<4.0.0.
+INFO: 10.07.2025 04:01:34 Redirect URI:, http://localhost:8080/.
+DEBUG: 10.07.2025 04:01:34 Generated new state 6akB42dea0fJMOrryO3ySVkmnfjrXf..
+INFO: 10.07.2025 04:01:34 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:01:34 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271kZ7u2SuV8gNgJWVgeMxalFz2f3wL_1bs%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:01:35 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:01:35 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271AKSCnh-BsPM9qLwaPqyr6rGQJSji1kMm%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:01:35 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:01:35 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271_GHMJB219_aqRVOL0v2ze_7Ux4aQ9AKL%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:01:36 file_cache is only supported with oauth2client<4.0.0.
+INFO: 10.07.2025 04:02:46 Redirect URI:, http://localhost:8080/.
+DEBUG: 10.07.2025 04:02:46 Generated new state tCHlE28I0upjB0FpgBRFIOVSjNxTlu..
+INFO: 10.07.2025 04:02:46 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:02:46 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271kZ7u2SuV8gNgJWVgeMxalFz2f3wL_1bs%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:02:47 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:02:47 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271AKSCnh-BsPM9qLwaPqyr6rGQJSji1kMm%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:02:48 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:02:48 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271_GHMJB219_aqRVOL0v2ze_7Ux4aQ9AKL%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:04:31 Redirect URI:, http://localhost:8080/.
+DEBUG: 10.07.2025 04:04:31 Generated new state x0YRIxdI8h20zvSNcvBeimh10DqiDW..
+INFO: 10.07.2025 04:04:31 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:04:31 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271kZ7u2SuV8gNgJWVgeMxalFz2f3wL_1bs%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:04:31 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:04:31 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271AKSCnh-BsPM9qLwaPqyr6rGQJSji1kMm%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:04:32 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:04:32 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271_GHMJB219_aqRVOL0v2ze_7Ux4aQ9AKL%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:06:43 Redirect URI:, http://localhost:8080/.
+DEBUG: 10.07.2025 04:06:43 Generated new state Q7DYI8VSf01TqhTNHhq31SktcetmFP..
+INFO: 10.07.2025 04:06:43 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:06:43 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271kZ7u2SuV8gNgJWVgeMxalFz2f3wL_1bs%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:06:44 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:06:44 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271AKSCnh-BsPM9qLwaPqyr6rGQJSji1kMm%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:06:45 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:06:45 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271_GHMJB219_aqRVOL0v2ze_7Ux4aQ9AKL%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:08:29 Redirect URI:, http://localhost:8080/.
+DEBUG: 10.07.2025 04:08:29 Generated new state Za7OeP5w7tn7DEg3zhVe1oIkHZ8qDM..
+INFO: 10.07.2025 04:08:29 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:08:29 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271kZ7u2SuV8gNgJWVgeMxalFz2f3wL_1bs%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:08:30 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:08:30 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271AKSCnh-BsPM9qLwaPqyr6rGQJSji1kMm%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:08:31 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:08:31 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271_GHMJB219_aqRVOL0v2ze_7Ux4aQ9AKL%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:08:46 Redirect URI:, http://localhost:8080/.
+DEBUG: 10.07.2025 04:08:46 Generated new state gEZt6AP4tML5gPWLu9OGCVrYwlJuyR..
+INFO: 10.07.2025 04:08:46 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:08:46 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271kZ7u2SuV8gNgJWVgeMxalFz2f3wL_1bs%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:08:47 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:08:47 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271AKSCnh-BsPM9qLwaPqyr6rGQJSji1kMm%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:08:48 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:08:48 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271_GHMJB219_aqRVOL0v2ze_7Ux4aQ9AKL%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:09:54 Redirect URI:, http://localhost:8080/.
+DEBUG: 10.07.2025 04:09:54 Generated new state kfzeWzIUAkr4DuhWKS8XSkQozPXZhc..
+INFO: 10.07.2025 04:09:54 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:09:54 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271kZ7u2SuV8gNgJWVgeMxalFz2f3wL_1bs%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:09:55 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:09:55 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271AKSCnh-BsPM9qLwaPqyr6rGQJSji1kMm%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:09:56 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:09:56 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271_GHMJB219_aqRVOL0v2ze_7Ux4aQ9AKL%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:09:56 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:09:56 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271cOpBS7LMpJ9bf_zxOMdf7Y6HAYbT21CQ%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:10:42 Redirect URI:, http://localhost:8080/.
+DEBUG: 10.07.2025 04:10:42 Generated new state ylMqHg4UjA0Qi2j6hRdV9iZxbUgW4Y..
+INFO: 10.07.2025 04:10:42 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:10:42 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271kZ7u2SuV8gNgJWVgeMxalFz2f3wL_1bs%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:10:43 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:10:43 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271AKSCnh-BsPM9qLwaPqyr6rGQJSji1kMm%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:10:44 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:10:44 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271_GHMJB219_aqRVOL0v2ze_7Ux4aQ9AKL%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:10:44 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:10:44 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271cOpBS7LMpJ9bf_zxOMdf7Y6HAYbT21CQ%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:14:50 Redirect URI:, http://localhost:8080/.
+DEBUG: 10.07.2025 04:14:50 Generated new state fyZ302aoTbrC8uJdfcj7VpJu00sqy9..
+INFO: 10.07.2025 04:14:50 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:14:50 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271kZ7u2SuV8gNgJWVgeMxalFz2f3wL_1bs%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:14:51 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:14:51 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271AKSCnh-BsPM9qLwaPqyr6rGQJSji1kMm%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:14:52 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:14:52 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271_GHMJB219_aqRVOL0v2ze_7Ux4aQ9AKL%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:14:52 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:14:52 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271cOpBS7LMpJ9bf_zxOMdf7Y6HAYbT21CQ%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:14:52 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:14:52 URL being requested: POST https://www.googleapis.com/drive/v3/files/1z2k2ApMuRps9VaPYVivCY9iYvew3kam8/copy?alt=json.
+WARNING: 10.07.2025 04:14:53 Encountered 403 Forbidden with reason "storageQuotaExceeded".
+INFO: 10.07.2025 04:23:13 Redirect URI:, http://localhost:8080/.
+DEBUG: 10.07.2025 04:23:14 Generated new state 22IX1u3GkEh3q9s5oUyoFJsDvIPMNR..
+INFO: 10.07.2025 04:23:14 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:23:14 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271kZ7u2SuV8gNgJWVgeMxalFz2f3wL_1bs%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:23:14 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:23:14 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271AKSCnh-BsPM9qLwaPqyr6rGQJSji1kMm%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:23:15 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:23:15 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271_GHMJB219_aqRVOL0v2ze_7Ux4aQ9AKL%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:23:15 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:23:15 URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271cOpBS7LMpJ9bf_zxOMdf7Y6HAYbT21CQ%27+in+parents+and+trashed+%3D+false&supportsAllDrives=true&includeItemsFromAllDrives=true&fields=files%28id%2C+name%2C+mimeType%2C+modifiedTime%2C+createdTime%29&alt=json.
+INFO: 10.07.2025 04:23:16 file_cache is only supported with oauth2client<4.0.0.
+DEBUG: 10.07.2025 04:23:16 URL being requested: POST https://www.googleapis.com/drive/v3/files/1z2k2ApMuRps9VaPYVivCY9iYvew3kam8/copy?alt=json.
+DEBUG: 10.07.2025 04:23:17 URL being requested: POST https://www.googleapis.com/drive/v3/files/11rMdoPFu4CsKo8Z03Gcm7sH98LJ943c6/copy?alt=json.

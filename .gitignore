@@ -2,5 +2,3 @@
 .env 
 
 token.pickle
-
-move_files.py
