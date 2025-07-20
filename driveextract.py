@@ -20,6 +20,8 @@ load_dotenv()
 
 scope = ['https://www.googleapis.com/auth/drive']
 
+# Client configuration for Google Drive API.
+# It includes client ID, project ID, authentication URIs, and redirect URI.
 CLIENT_CONFIG = {
     "web": {
         "client_id": os.getenv("GOOGLE_CLIENT_ID"),
@@ -32,20 +34,27 @@ CLIENT_CONFIG = {
     }
 }
 
+# Flow object to handle the OAuth 2.0 authorization process.
+# It is initialized with the client configuration and the required scopes.
 flow = InstalledAppFlow.from_client_config(
     client_config=CLIENT_CONFIG,
     scopes=scope)
 
+# Set the redirect URI for the flow.
+# This is the URI where the user will be redirected after authorization.
 flow.redirect_uri = CLIENT_CONFIG["web"]["redirect_url"][0]
 log.lg.info(f"Redirect URI:, {flow.redirect_uri}")
 
-
+# Generate the authorization URL and state for the OAuth 2.0 flow.
+# This URL will be used to redirect the user for authorization.
 auth_url, state = flow.authorization_url(
     access_type='offline',
     include_granted_scopes='true',
     prompt='consent'
 )
 
+# This function authenticates the user and connects to the Google Drive API.
+# It returns a service object that can be used to interact with the API.
 def authenticate_and_connect_client():
     creds = None
 
@@ -65,8 +74,11 @@ def authenticate_and_connect_client():
     return service
 
 
+# The ID of the folder where files will be read from.
 folder_id = os.getenv("SOURCE")
 
+# Function to list files in a specified folder in Google Drive.
+# It takes a service object and a folder ID as parameters.
 def list_files(service, folder_id):
     query = f"'{folder_id}' in parents and trashed = false"
     results = service.files().list(
@@ -81,7 +93,11 @@ def list_files(service, folder_id):
     else:
         return items
 
-move_to = os.getenv("ARCHIVE")   
+# The directory where files will be mover after processing
+move_to = os.getenv("ARCHIVE") 
+
+# Function to move files to a specified folder in Google Drive.
+# It takes a service object, a list of items (files), and the new folder ID as parameters.
 def move_file_to_folder(service, items, new_folder_id):
     id_list = [item['id'] for item in items]
     if len(id_list) == 0:

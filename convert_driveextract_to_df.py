@@ -10,16 +10,19 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-
+# Function to authenticate and connect to Google Drive API.
 drive = driv.authenticate_and_connect_client()
 
+# Function to get the list of files in the specified folder in Google Drive.
+# It returns a list of dictionaries containing file details.
 def get_filename_and_files():
     files = driv.list_files(drive, driv.folder_id)
     if type(files) == 'NoneType':
         log.lg.info('No files found in the folder.')
     return files
 
-    
+# Function to create DataFrames from the files in the specified folder.
+# It reads a CSV and an Excel file, converts them to DataFrames, and returns a dictionary of DataFrames.
 def createdf(nkwa_files = get_filename_and_files(), dfs = dict(), return_text = True):
     if type(nkwa_files) == 'NoneType':
         log.lg.info(f'{type(nkwa_files)}')

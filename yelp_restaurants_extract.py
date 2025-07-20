@@ -24,6 +24,8 @@ parameter = {
 #location is a parameter that only accepts strings unlike price that accepts list.
 location = ["Bielefeld","Hamm","Paderborn","Essen","Dortmund","Cologne","Dusseldorf","Bochum", "Hanover"]
 
+# Function to get the business data from Yelp API based on the specified locations and parameters.
+# It returns a tuple containing a DataFrame of businesses and a list of unique business IDs.
 def get_businesses(dfs= None, df_lis = []) -> tuple:
     for place in location:
         try:
@@ -45,7 +47,8 @@ def get_businesses(dfs= None, df_lis = []) -> tuple:
     return dfs, list(set(business_ids))
 
 
-
+# Function to get the reviews for each business from Yelp API.
+# It returns a tuple containing a DataFrame of businesses and a DataFrame of reviews.
 def get_business_reviews(reviews_df = None):
     review_dfs =[]
     businesses_df = get_businesses()[0]
