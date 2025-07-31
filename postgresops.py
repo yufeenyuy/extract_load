@@ -69,3 +69,5 @@ def ingest_data(df,schemaname, tablename):
 
 
 
+
+

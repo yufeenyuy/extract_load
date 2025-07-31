@@ -73,3 +73,4 @@ if __name__ == '__main__':
                                     folder_id=d.folder_id), 
                   new_folder_id=d.move_to)
     log.lg.info('Ingested files have been moved to archive folder.')
+

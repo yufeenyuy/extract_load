@@ -21,7 +21,7 @@ or collected from several different sources(e.g social media, cloud storage etc)
 This framework is different from ETL in that, the Loading phase is done immediately after the extraction phase and the added value of this framework lies in the possibility to transform data based on Analytical need i.e Transformation is done when data is needed. This framework is suitable forbuilding data pipelines. In this project, python and dbt-core with postgresql adapter will be used to build the ELT data pipeline.
 
 4. Data Pipeline:
-This is an alternative approach to DWH in processing data. A combination of several tools are usually deployed to develop and orchestrate data processing.
+This is an alternative approach to DWH in processing data. A combination of several tools are usually deployed to develop and orchestrate data processing. 
 
 4. Integration/Ingestion:
 In practice, data integration is not different from data ingestion, i.e they are both implemented together. The only thing to note about data integration

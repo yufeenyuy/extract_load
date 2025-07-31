@@ -24,3 +24,4 @@ conn = engine.connect()
 conn.execute
 
 log.lg.info('Connection to postgres established.')
+
